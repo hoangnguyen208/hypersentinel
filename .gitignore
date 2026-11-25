@@ -1,0 +1,5 @@
+/target
+*.jsonl.zst
+!fixtures/*.jsonl.zst
+config.toml
+.env

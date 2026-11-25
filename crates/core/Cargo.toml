@@ -1,0 +1,16 @@
+[package]
+name = "hypersentinel-core"
+description = "Domain types, fixed-point arithmetic, and ports for HyperSentinel"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+repository.workspace = true
+
+[dependencies]
+thiserror.workspace = true
+
+[dev-dependencies]
+proptest.workspace = true
+
+[lints]
+workspace = true
